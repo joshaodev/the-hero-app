@@ -1,0 +1,45 @@
+.new-incident-container {
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-incident-container .content {
+  width: 100%;
+  background-color: #f0f0f5;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 96px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-incident-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.new-incident-container .content section h1 {
+  margin: 64px 0 32px;
+}
+
+.new-incident-container .content form {
+  width: 100%;
+  max-width: 380px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.new-incident-container .content form input,
+.new-incident-container .content form textarea {
+  margin-bottom: 8px;
+}

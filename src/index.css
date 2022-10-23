@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Space+Grotesk:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  background: #f0f0f5;
+}
+
+a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+input,
+button,
+textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 4px;
+  padding: 0 24px;
+}
+
+form input {
+  height: 40px;
+}
+
+form textarea {
+  height: 140px;
+}
+
+button {
+  height: 40px;
+  cursor: pointer;
+}
+
+.button {
+  width: 100%;
+  line-height: 40px;
+  background-color: #e02041;
+  color: #fff;
+  margin-top: 16px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: filter 0.2s;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #41414d;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.back-link:hover {
+  opacity: 0.8;
+}
