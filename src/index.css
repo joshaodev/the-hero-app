@@ -37,15 +37,17 @@ form textarea {
   color: #333;
   border: 1px solid #dcdce6;
   border-radius: 4px;
-  padding: 0 24px;
 }
 
 form input {
   height: 40px;
+  padding: 0 24px;
 }
 
 form textarea {
   height: 140px;
+  padding: 8px 24px;
+  resize: vertical;
 }
 
 button {

@@ -3,6 +3,7 @@
   max-width: 1120px;
   height: 100vh;
   margin: 0 auto;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,6 +18,7 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .register-container .content section {
@@ -41,7 +43,7 @@
 
 .register-container .content form {
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
 
   display: flex;
   flex-direction: column;
@@ -59,4 +61,32 @@
 
 .register-container .content form .input-group input + input {
   margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+  .register-container .content {
+    flex-direction: column;
+  }
+
+  .register-container .content section img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .register-container .content section h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .register-container .content section p {
+    display: none;
+  }
+
+  .register-container .content section a {
+    margin: 10px 0;
+  }
+
+  .register-container .content form {
+    margin-left: 0;
+  }
 }

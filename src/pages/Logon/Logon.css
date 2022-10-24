@@ -1,33 +1,43 @@
 .logon-container {
   width: 100%;
+  min-height: 100vh;
   max-width: 1120px;
   padding: 16px;
   margin: 0 auto;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.logon-container section {
+.logon-container .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logon-container .content section {
   width: 100%;
   max-width: 350px;
 }
 
-.logon-container section form {
-  margin-top: 100px;
+.logon-container .content > img {
+  width: 50%;
 }
 
-.logon-container section form h1 {
+.logon-container .content section form {
+  margin-top: 80px;
+}
+
+.logon-container .content section form h1 {
   font-size: 32px;
   margin-bottom: 32px;
 }
 
-.logon-container section form a svg {
+.logon-container .content section form a svg {
   margin-right: 8px;
 }
 
-.logon-container section form a {
+.logon-container .content section form a {
   display: flex;
   align-items: center;
   margin-top: 40px;
@@ -36,25 +46,25 @@
   transition: opacity 0.2s;
 }
 
-.logon-container section form a:hover {
+.logon-container .content section form a:hover {
   opacity: 0.8;
 }
 
-@media (max-width: 1000px) {
-  .logon-container {
+@media (max-width: 768px) {
+  .logon-container .content {
     justify-content: center;
   }
 
-  .logon-container section img {
+  .logon-container .content section img {
     display: block;
     margin: 0 auto;
   }
 
-  .logon-container section form h1 {
+  .logon-container .content section form h1 {
     text-align: center;
   }
 
-  .logon-container > img {
+  .logon-container .content > img {
     display: none;
   }
 }
